@@ -1,0 +1,384 @@
+/* default margin padding */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* body style added */
+body{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+
+}
+
+/* header style added */
+
+.header-main{
+    display: flex;
+    position: relative;
+  
+}
+
+
+.menu{
+    position: absolute;
+    right: 10%;
+    margin-top:18px;
+}
+
+.menu ul li{
+    
+    display: inline-block;
+    margin: 10px;
+    
+}
+
+.menu ul li a{
+    
+   text-decoration: none;
+   color: black;
+   font-size:1.1rem;
+   font-weight: bold;
+    
+}
+
+span{
+    font-size: 1.2rem;
+    margin: 10px;
+    cursor: pointer;
+  
+   
+}
+
+.title h3{
+    margin-top: 27px;
+    margin-left: 50px;
+}
+
+
+
+/* influencer-section design started here */
+
+.influencer-section{
+    margin-top: 50px;
+   display: flex;
+   justify-content: space-between;
+   width: 80%;
+}
+
+.camera img{
+    height:200px;
+    width: 200px;
+    margin-right:10px;
+    transition: all .8s ease-in-out;
+    
+    
+    
+    
+}
+
+.camera img:hover{
+    height:250px;
+    width: 250px;
+    margin-right:10px;
+    transform:rotate(360deg);
+    
+    
+}
+
+
+
+
+
+.section-title{
+    margin-left:50px;
+}
+
+.section-title p{
+    font-weight: bold;
+}
+
+.btn{
+    background-color: brown;
+    height:20px;
+    width: 120px;
+    padding: 10px;
+    border-radius: 40px;
+    text-align: center;
+}
+
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+
+/* my gadget and gear style started here */
+
+.online-shop img{
+   
+    height:80px;
+    width: 100px;
+    margin:5px;
+    margin-left: 70px;
+    cursor: pointer;
+}
+
+.hr{
+    color:lightgray;
+}
+.collection h1{
+    text-align: center;
+}
+
+.collection-img{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* grid-gap:30px; */
+    grid-row-gap: 30px;
+    grid-column-gap: 30px;
+    text-align: center;
+    margin-left: 50px;
+   
+}
+
+.first-img{
+    box-shadow: 8px 8px 16px lightgray;
+    width: 350px;
+    height: 400px;
+    padding: 20px;
+    border-radius: 10px;
+   
+}
+
+
+
+.second-img{
+    box-shadow: 8px 8px 30px lightgray;
+    width: 350px;
+    height: 400px;
+    padding: 20px;
+    border-radius: 10px;
+   
+}
+
+.third-img{
+    box-shadow: 8px 8px 16px lightgray;
+    width: 350px;
+    height: 400px;
+    padding: 20px;
+    border-radius: 10px;
+   
+}
+
+.fourth-img{
+    box-shadow: 8px 8px 16px lightgray;
+    width: 350px;
+    height: 400px;
+    padding: 20px;
+    border-radius: 10px;
+   
+}
+
+.fifth-img{
+    box-shadow: 8px 8px 16px lightgray;
+    width: 350px;
+    height: 400px;
+    padding: 20px;
+    border-radius: 10px;
+   
+}
+
+.six-img{
+    box-shadow: 8px 8px 16px lightgray;
+    width: 350px;
+    height: 400px;
+    padding: 20px;
+    border-radius: 10px;
+   
+}
+
+.seven-img{
+    box-shadow: 8px 8px 16px lightgray;
+    width: 350px;
+    height: 400px;
+    padding: 20px;
+    border-radius: 10px;
+   
+}
+
+.eight-img{
+    box-shadow: 8px 8px 16px lightgray;
+    width: 350px;
+    height: 400px;
+    padding: 20px;
+    border-radius: 10px;
+   
+}
+
+.nine-img{
+    box-shadow: 8px 8px 16px lightgray;
+    width: 350px;
+    height: 400px;
+    padding: 20px;
+    border-radius: 10px;
+   
+}
+
+/* icon rating style started here */
+
+
+#icon-color{
+    color: goldenrod;
+}
+
+.rating-point{
+    color: blue;
+}
+
+#para-color{
+    color: blue;
+}
+
+/* my favourite food item style started here */
+
+.favourite-food{
+    text-align: center;
+}
+
+.food-title{
+    text-align: center;
+}
+
+
+.all-foods{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.one img{
+    padding: 20px;
+    
+}
+
+.two img{
+    padding: 20px;
+}
+
+
+.one{
+    box-shadow: 5px 5px 10px lightslategrey;
+
+}
+
+.two{
+    box-shadow: 5px 5px 10px lightslategrey;
+
+}
+
+/* footer style started here */
+
+footer{
+    height: 140px;
+    width: 100%;
+    background-color:lightseagreen;
+    text-align: center;
+    padding:5px;
+}
+
+
+footer .icon{
+    text-align: center;
+    padding: 15px;
+    margin-bottom:5px;
+}
+
+.fa-facebook-f{
+    height: 20px;
+    width:20px;
+   font-size: 1.5rem;
+   color: white;
+   background-color:#4267B2 ;
+   padding: 10px;
+   border-radius: 50%;
+   text-align: center;
+   cursor: pointer;
+}
+
+.fa-instagram{
+    background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+    color: white;
+    height: 20px;
+    width:20px;
+    font-size: 1.5rem;
+    padding:10px;
+    border-radius: 50%;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+    
+
+    
+ }
+
+ .fa-twitter{
+    height: 20px;
+    width:20px;
+   font-size: 1.5rem;
+   color: white;
+   background-color:#00acee ;
+   padding: 10px;
+   border-radius: 50%;
+  align-items: center;
+  cursor: pointer;
+}
+
+.fa-linkedin-in{
+    height: 20px;
+    width:20px;
+   font-size: 1.5rem;
+   color: white;
+   background-color:#0077b5 ;
+   padding: 10px;
+   border-radius: 50%;
+  align-items: center;
+  cursor: pointer;
+}
+
+
+/* for mobile device */
+
+@media only screen and (max-width: 688px){
+    header{
+        width:50%;
+    }
+
+    .header-main, .influencer-section, .online-shop img, .collection-img, .all-foods{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    header{
+        flex-direction: column;
+    }
+
+   
+
+  
+
+
+}
+
+/* for tablet devices */
+
+@media only screen and (min-width:688px) and (max-width:992px){
+     .collection-img, .all-foods{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+   
+}
+    
+
+
+
+
+
